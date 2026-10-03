@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+.runtime/
+node-checksums.txt
+node-runtime.zip
+out/
+examples/java-report/*.class
