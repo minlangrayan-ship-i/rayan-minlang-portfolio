@@ -17,7 +17,7 @@ Ouvrir http://localhost:3000. Vérifications : `npm run typecheck` et `npm run b
 
 ## Données
 
-Modifier `data/portfolio.ts` pour les coordonnées, bio, formations, compétences, projets et étapes de progression. Un projet apparaît dans la galerie seulement si `published: true`. Les pistes non documentées restent dans les données. Ajouter le CV réel dans `public/` puis renseigner `contact.cv` (avec le préfixe du site si déploiement en sous-dossier).
+Modifier `data/portfolio.ts` pour les coordonnées, bio, formations, compétences, projets et étapes de progression. Un projet apparaît dans la galerie seulement si `published: true`. Les pistes non documentées restent dans les données. Le CV principal Data & Gestion de projet est dans `public/assets/cv/rayan-minlang-cv.pdf`. La référence `contact.cv` est relative à la racine ; les boutons ajoutent automatiquement le préfixe de déploiement.
 
 Le formulaire prépare un email dans la messagerie du visiteur, qui doit valider l’envoi. Aucun message n’est transmis par un serveur du portfolio et aucune donnée de formulaire n’y est stockée.
 
@@ -56,4 +56,4 @@ public/                 Favicon
 
 Les fichiers `.runtime/`, `node_modules/`, `.next/` et `out/` sont locaux et exclus de Git.
 
-À compléter : CV, modalités d’alternance et justificatif de certification. Aucun score Lighthouse n’est annoncé sans mesure.
+À compléter : modalités d’alternance et justificatif de certification. Aucun score Lighthouse n’est annoncé sans mesure.
