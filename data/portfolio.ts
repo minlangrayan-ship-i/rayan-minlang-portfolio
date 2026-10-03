@@ -9,6 +9,13 @@ export const portfolio = {
   bio: 'Après deux années de classe préparatoire intégrée à PrépaVogt, au Cameroun, je poursuis mon parcours à 3iL Ingénieurs. La prépa m’a apporté une méthode de travail, un raisonnement scientifique et le goût de résoudre des problèmes. Aujourd’hui, je développe ces bases à travers le logiciel, les données et le travail en équipe.',
   mantra: 'Le succès, c’est lorsque la préparation rencontre l’opportunité.',
   availability: 'À la recherche d’une alternance',
+  eloquence: {
+    title: 'Concours d’Éloquence – Collège F.X. Vogt',
+    date: 'Décembre 2023', dateTime: '2023-12',
+    description: 'Participation à la 8e édition du concours d’éloquence, une expérience qui m’a permis de développer ma prise de parole en public, mon argumentation, ma confiance à l’oral et ma capacité à structurer et défendre des idées devant un public.',
+    skills: ['Prise de parole en public', 'Éloquence', 'Communication', 'Argumentation', 'Confiance à l’oral'],
+    document: '/assets/documents/attestation-concours-eloquence-rayan-minlang.pdf',
+  },
   contact: { email: 'minlangrayan@gmail.com' as string | null, linkedin: 'https://www.linkedin.com/in/frederic-rayan-minlang-ngba-381938348' as string | null, github: 'https://github.com/minlangrayan-ship-i' as string | null, cv: null as string | null },
   opportunity: { description: 'Je cherche une équipe auprès de laquelle contribuer au développement logiciel et approfondir mes compétences. Ma formation en gestion de projet apporte une attention aux tâches, aux dépendances et aux délais.', domains: ['Développement Java / Python', 'Logiciel & bases de données', 'Data · spécialisation visée', 'Gestion de projet IT'], rhythm: 'Rythme et date de début : à convenir selon les modalités de 3iL.' },
   engineeringJourney: [
