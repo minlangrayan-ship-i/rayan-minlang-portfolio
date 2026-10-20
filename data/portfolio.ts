@@ -2,14 +2,18 @@ export type Category = 'Software' | 'Data' | 'IA' | 'Git' | 'Database' | 'Projec
 export type Project = { id: string; name: string; description: string; category: Category; status: string; technologies: string[]; role: string; learning: string[]; features?: string[]; github: string | null; demo: string | null; visual: 'code' | 'data' | 'plan' | 'idea'; published?: boolean };
 export const portfolio = {
   name: 'Rayan Minlang', initials: 'RM', school: '3iL Ingénieurs',
-  title: 'Élève-ingénieur en informatique · 3iL Ingénieurs', location: '3iL Ingénieurs · France',
+  title: 'Élève-ingénieur en informatique · 3iL Ingénieurs', location: 'Limoges, France',
   headline: 'Développement logiciel. Cap sur l’IA & la Data.',
-  intro: 'Java, Python, SQL et Git : une base technique pour contribuer à une équipe de développement. Je recherche une alternance en informatique, avec un objectif de spécialisation en IA & Data.',
+  intro: 'Java, Python, SQL et Git : une base technique mise en pratique sur AfroAtlas, une plateforme en ligne. Étudiant-entrepreneur (statut national SNEE), je recherche une alternance en informatique, Data ou gestion de projet IT, avec un objectif de spécialisation en IA & Data.',
   ambition: 'Mon cap : devenir ingénieur en informatique spécialisé en Intelligence Artificielle et Data, avec une double compétence en gestion de projets technologiques.',
   bio: 'Après deux années de classe préparatoire intégrée à PrépaVogt, au Cameroun, je poursuis mon parcours à 3iL Ingénieurs. La prépa m’a apporté une méthode de travail, un raisonnement scientifique et le goût de résoudre des problèmes. Aujourd’hui, je développe ces bases à travers le logiciel, les données et le travail en équipe.',
   mantra: 'Le succès, c’est lorsque la préparation rencontre l’opportunité.',
   availability: 'À la recherche d’une alternance',
   cvPositioning: 'CV principal · Data & Gestion de projet',
+  targetedCvs: [
+    { label: 'Gestion de projet IT', file: '/assets/cv/rayan-minlang-cv-gestion-projet-it.pdf' },
+    { label: 'Data & Développement', file: '/assets/cv/rayan-minlang-cv-data-developpement.pdf' },
+  ],
   eloquence: {
     title: 'Concours d’Éloquence – Collège F.X. Vogt',
     date: 'Décembre 2023', dateTime: '2023-12',
@@ -36,16 +40,18 @@ export const portfolio = {
   ],
   education: [
     { date: '2026 — 2029', title: 'Cycle ingénieur informatique', organization: '3iL Ingénieurs', description: 'Première année du cycle ingénieur. Développement des compétences en informatique et préparation d’une spécialisation IA & Data.', status: 'Formation actuelle' },
-    { date: 'Deux années · dates à préciser', title: 'Classe préparatoire intégrée', organization: 'PrépaVogt · Cameroun', description: 'Raisonnement scientifique, analyse, méthode, autonomie et travail sous pression.', status: 'Formation précédente' },
-    { date: 'Date à préciser', title: 'Certification en gestion de projet', organization: 'Organisme à renseigner', description: 'Planification, ordonnancement, ressources et suivi de performance. Formation pratique à Microsoft Project.', status: 'Certification acquise' },
+    { date: '2024 — 2026', title: 'Classe préparatoire intégrée', organization: 'PrépaVogt · Cameroun', description: 'Raisonnement scientifique, analyse, méthode, autonomie et travail sous pression.', status: 'Formation précédente' },
+    { date: 'Certification', title: 'Certification en gestion de projet', organization: 'CAD Skills Center India', description: 'Planification, ordonnancement, ressources et suivi de performance. Formation pratique à Microsoft Project.', status: 'Certification acquise' },
     { date: 'À venir', title: 'Approfondir l’IA & la Data', organization: 'Objectif de spécialisation', description: 'Construire progressivement des projets Python et Data, puis explorer l’intelligence artificielle.', status: 'Prochain jalon' },
   ],
   certifications: [
-    { title: 'Gestion de projet', status: 'Acquise · justificatif à ajouter', description: 'Planification, structuration, gestion des ressources et suivi d’avancement.', issuer: 'Organisme et date à renseigner' },
+    { title: 'Gestion de projet', status: 'Acquise', description: 'Planification, structuration, gestion des ressources et suivi d’avancement, avec pratique de Microsoft Project.', issuer: 'CAD Skills Center India' },
+    { title: 'Statut National Étudiant-Entrepreneur (SNEE)', status: 'Obtenu · 2026 – 2027', description: 'Statut délivré par le ministère de l’Enseignement supérieur pour mener un projet entrepreneurial en parallèle des études.', issuer: 'Pépite Nord-Aquitain' },
     { title: 'Formations Python', status: 'À venir', description: 'Un espace prévu pour documenter les formations suivies et les compétences acquises.', issuer: 'Aucune certification revendiquée' },
     { title: 'IA & Data', status: 'Objectif futur', description: 'Les prochaines certifications seront ajoutées avec leur organisme et leur justificatif.', issuer: 'Aucune certification revendiquée' },
   ],
   management: { intro: 'Ma formation en gestion de projet complète mon parcours technique. Elle m’aide à structurer le travail, comprendre les contraintes et suivre la progression d’un projet.', steps: ['Structurer les tâches', 'Définir les dépendances', 'Affecter les ressources', 'Suivre les échéances'], skills: ['Ordonnancement', 'Suivi de performance', 'Notions de gestion', 'Notions de management'] },
+  entrepreneur: { title: 'Statut National Étudiant-Entrepreneur', year: '2026 – 2027', issuer: 'Pépite Nord-Aquitain', description: 'Statut délivré par le ministère de l’Enseignement supérieur aux étudiants qui développent un projet entrepreneurial en parallèle de leurs études. Il me permet de structurer mes initiatives, d’être accompagné par le Pépite et d’apprendre à transformer une idée en projet concret.' },
   interests: ['Intelligence Artificielle', 'Data', 'Software Engineering', 'Innovation', 'Automatisation', 'Entrepreneuriat'],
   activities: [ { title: 'Basket-ball', text: 'Esprit d’équipe et engagement collectif.', symbol: '↗' }, { title: 'Éloquence', text: 'Concours, prise de parole et pitchs de projets.', symbol: '“' }, { title: 'Lecture', text: 'Curiosité et ouverture à de nouvelles idées.', symbol: '≡' }, { title: 'Projets étudiants', text: 'Collaboration et résolution de problèmes.', symbol: '⌘' } ],
   experiences: [] as { title: string; organization: string; date: string; description: string }[],
