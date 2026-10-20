@@ -10,6 +10,10 @@ export const portfolio = {
   mantra: 'Le succès, c’est lorsque la préparation rencontre l’opportunité.',
   availability: 'À la recherche d’une alternance',
   cvPositioning: 'CV principal · Data & Gestion de projet',
+  targetedCvs: [
+    { label: 'Gestion de projet IT', file: '/assets/cv/rayan-minlang-cv-gestion-projet-it.pdf' },
+    { label: 'Data & Développement', file: '/assets/cv/rayan-minlang-cv-data-developpement.pdf' },
+  ],
   eloquence: {
     title: 'Concours d’Éloquence – Collège F.X. Vogt',
     date: 'Décembre 2023', dateTime: '2023-12',
