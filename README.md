@@ -56,4 +56,14 @@ public/                 Favicon
 
 Les fichiers `.runtime/`, `node_modules/`, `.next/` et `out/` sont locaux et exclus de Git.
 
-À compléter : modalités d’alternance et justificatif de certification. Aucun score Lighthouse n’est annoncé sans mesure.
+À compléter : modalités d’alternance. Aucun score Lighthouse n’est annoncé sans mesure.
+
+## Certification PPM et présentation du parcours
+
+La section `#gestion` présente le « Diploma in Project Management using MS Project » de CADD Centre (Yaoundé), délivré le 1er avril 2026 pour une formation de mai 2024 à mars 2026. Le PDF original est conservé sans modification dans `public/assets/documents/certification-ppm-rayan-minlang.pdf`. Les textes et les références sont dans `data/certification.ts` ; les droits des visuels et les sources Microsoft sont documentés dans `docs/asset-credits.md`, avec crédits visibles dans le site.
+
+Le thème clair est le choix initial. Le bouton de thème conserve le choix localement et permet le mode sombre. Les interactions React sont compilées en JavaScript : quatre onglets de compétences (clavier compris), transitions CSS, apparitions via IntersectionObserver et Web Animations, indicateur de lecture. Les animations respectent `prefers-reduced-motion`. Le contenu et les justificatifs restent lisibles sans JavaScript. Aucune dépendance d’animation ni aucun traceur supplémentaire n’est ajouté.
+
+La section `#engagements` détaille le déroulement du concours d’éloquence, le travail réalisé et son apport à la communication. Elle atteste une participation, sans revendiquer de victoire. Le CV principal et l’ancienne attestation restent inchangés.
+
+`productionBrowserSourceMaps` est explicitement désactivé. Le build Next.js minifie les fichiers frontend ; ceux-ci restent consultables dans un navigateur. Les originaux du site antérieurs à cette mise à jour ont été sauvegardés hors dépôt dans `local-backups/portfolio-before-ppm-2026-11-11/`.
