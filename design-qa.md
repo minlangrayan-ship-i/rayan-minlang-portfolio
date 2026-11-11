@@ -1,6 +1,6 @@
 # Vérification du portfolio — certification PPM
 
-Date : 11 novembre 2026. Périmètre : portfolio de Rayan Minlang. Les tests de Shopyia restent arrêtés.
+Date : 11 novembre 2026. Périmètre : portfolio de Rayan Minlang.
 
 ## Référence et intention
 
@@ -66,5 +66,11 @@ Résultats locaux : `.runtime/qa/verification.json`.
 - La capture Microsoft est pédagogique et issue d’une version antérieure, explicitement indiquée. Aucun accès à une installation locale de Microsoft Project n’a été utilisé pour fabriquer une réalisation personnelle.
 - Cette vérification ne constitue pas un audit WCAG exhaustif, un test sur iPhone physique ou une mesure Lighthouse.
 - Le site reste un frontend public : les fichiers JavaScript et CSS transmis au navigateur sont consultables.
+
+## Vérification après publication
+
+Le workflow GitHub Pages de la version fonctionnelle `b71453e` s’est terminé avec succès : https://github.com/minlangrayan-ship-i/rayan-minlang-portfolio/actions/runs/43045437643.
+
+Les onze groupes de contrôles ont également réussi sur https://minlangrayan-ship-i.github.io/rayan-minlang-portfolio/ avec un contexte de navigation anonyme. La certification est présente, le PDF téléchargé a la même empreinte que l’original, les trois CV et les anciens justificatifs sont accessibles, les interactions et les dimensions mobiles contrôlées fonctionnent. Aucune erreur JavaScript relevée. Résultats : `.runtime/qa/verification-published.json` ; capture : `.runtime/qa/published-desktop.png`.
 
 final result: passed
